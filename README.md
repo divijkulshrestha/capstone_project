@@ -1,7 +1,7 @@
 # CSE 4099: Capstone Project
 ## by Divij Kulshrestha [17BCE2116] and Mohith J [17BCE2135]
 
-This repo contains Python code for the Heroku [web application](https://pollution-forecast.herokuapp.com/) we built for our capstone project. 
+This repo contains Python code for the Heroku [web application](https://pollution-forecast.herokuapp.com/) we built for our capstone project in our final semester at VIT. 
 
 **As of Dec 2022, this project is now hosted on Streamlit Community Cloud - [here!](https://breathe-easy.streamlit.app/)
 
