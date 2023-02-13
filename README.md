@@ -8,8 +8,6 @@ As of Dec 2022, this project is now hosted on Streamlit Community Cloud - [here!
 # Aim
 Our project aims to use machine learning to forecast the level of pollution (specifically, PM 2.5 values) for vairous urban Indian cities using publicly available pollution and meteorological data from [OpenWeather](https://openweathermap.org/), the Central Pollution Control Board website, and the [Reliable Prognosis Weather Archive](https://rp5.ru).
 
-Air Pollution Web App - https://pollution-forecast.herokuapp.com/
-
 The web app was built in Python using the following libraries:
 
     * streamlit
