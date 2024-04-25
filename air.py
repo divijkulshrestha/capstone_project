@@ -10,10 +10,6 @@ from datetime import date, datetime, timedelta
 from sklearn.ensemble import RandomForestRegressor
 import pytz
 
-# catch version error
-from sklearn.exceptions import InconsistentVersionWarning
-warnings.simplefilter("error", InconsistentVersionWarning)
-
 # app title
 st.write("""
 # Air Quality Prediction App
@@ -187,10 +183,7 @@ elif city == 'Chennai':
 
 elif city == 'Ahmedabad':        
     with open("ahd_rf.bin", 'rb') as f_in:
-        try:
-            model = pickle.load(f_in)
-        except InconsistentVersionWarning as w:
-            print(w.original_sklearn_version)            
+        model = pickle.load(f_in)          
     df = df.drop(['NH3'], axis = 1)
    
 elif city == 'Lucknow':        
